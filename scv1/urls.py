@@ -6,4 +6,5 @@ from . import views
 urlpatterns = [
     # Define your URL patterns here
     path('', views.index, name='starting-page'),
+    path('aboutus/', views.aboutus, name='aboutus-page'),
 ]

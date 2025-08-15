@@ -13,8 +13,6 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 from pathlib import Path
 import environ
 
-from secgeo.scv.templates.settings import SECRET_KEY
-
 env = environ.Env(DEBUG=(bool, False))
 environ.Env.read_env()
 
